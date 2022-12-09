@@ -1,7 +1,12 @@
+#Program: Eligibility scoring software
+#Author: Uzair
+#Description: The code takes the input from the user and using an array, it stores the corresponding number with the input
+#The code then finds the smallest number and using a popup, a statement is shown in accordance to it.
+
 from tkinter import *
 import tkinter as tk
 master = tk.Tk()
-master.title("Marks Calculator")
+master.title("Grade Calculator")
 master.geometry("700x250")
 
 part1 = tk.Entry(master)
